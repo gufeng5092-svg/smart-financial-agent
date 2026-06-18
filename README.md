@@ -1,4 +1,4 @@
-# 智能财报问数助手
+# Smart-Financial-Agent
 
 基于 Text-to-SQL、Schema Linking、Dify RAG 和答案校验的上市公司财报智能问数助手。项目源自泰迪杯赛题实践，适合作为“财报结构化数据 + 研报知识库”的 Agent 示例项目。
 
@@ -12,23 +12,13 @@
 - 结果可视化：支持折线图、柱状图、饼图、散点图等。
 - 答案校验：检查回答中的关键数值是否来自数据库结果。
 
-## 架构
+## Architecture
 
-```text
-PDF 财报/研报
-   ↓ MinerU
-结构化文本/表格
-   ↓ 清洗与入库
-MySQL 财务数据库        Dify 研报知识库
-      ↓                  ↓
-Schema Linking       RAG Retrieve
-      ↓                  ↓
-        Text-to-SQL / RAG Agent
-              ↓
-        SQL 执行 / 自修复
-              ↓
-        答案生成 / 校验 / 图表
-```
+![architecture](docs/architecture.png)
+
+## Demo
+
+![demo](docs/demo.png)
 
 ## 快速开始
 
