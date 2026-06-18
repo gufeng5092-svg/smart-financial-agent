@@ -1,0 +1,12 @@
+pandas
+numpy
+openpyxl
+sqlalchemy
+pymysql
+openai
+requests
+matplotlib
+scikit-learn
+joblib
+sentence-transformers
+python-dotenv
