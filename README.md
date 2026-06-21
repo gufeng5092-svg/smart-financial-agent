@@ -73,7 +73,6 @@ INPUT_FILE=your_questions.xlsx OUTPUT_FILE=your_output.xlsx python run_task3.py
 
 - [docs/data_pipeline.md](docs/data_pipeline.md)：MinerU、MySQL、Dify 的数据处理流程。
 - [docs/database_schema.md](docs/database_schema.md)：数据库表结构说明。
-- [docs/open_source_checklist.md](docs/open_source_checklist.md)：发布 GitHub 前检查清单。
 
 ## 许可证
 
