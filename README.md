@@ -1,6 +1,6 @@
 # Smart-Financial-Agent
 
-基于 Text-to-SQL、Schema Linking、Dify RAG 和答案校验的上市公司财报智能问数助手。项目源自泰迪杯赛题实践，适合作为“财报结构化数据 + 研报知识库”的 Agent 示例项目。
+基于 Text-to-SQL、Schema Linking、Dify RAG 和答案校验的上市公司财报智能问数助手。适合作为“财报结构化数据 + 研报知识库”的 Agent 示例项目。
 
 ## 功能
 
