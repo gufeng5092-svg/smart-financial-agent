@@ -40,7 +40,7 @@ cp .env.example .env
 
 根据 [sql/schema.sql](sql/schema.sql) 创建表，并导入你自己的财报结构化数据。当前仓库只保留样例问题和样例输出，完整比赛数据、研报 PDF 和财报数据请自行准备。
 
-4. 运行单题：
+4. 单问题运行：
 
 ```bash
 python run_single.py B2001
