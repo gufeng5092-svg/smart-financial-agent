@@ -68,13 +68,6 @@ INPUT_FILE=your_questions.xlsx OUTPUT_FILE=your_output.xlsx python run_task3.py
 - [run_single.py](run_single.py)：单题调试入口。
 - [run_task3.py](run_task3.py)：批量处理入口。
 
-## 数据说明
-
-本项目不建议公开提交完整比赛附件、研报 PDF 或商业财报数据。推荐做法：
-
-- `examples/`：放少量样例问题、样例知识库 CSV 和样例输出。
-- `data/`：放本地完整数据，默认被 `.gitignore` 忽略。
-- `sql/`：放数据库建表脚本和少量脱敏样例数据。
 
 ## 文档
 
