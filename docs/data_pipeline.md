@@ -64,7 +64,7 @@ DIFY_DATASET_ID
 
 ## 5. 本地数据目录建议
 
-完整数据建议放在 `data/` 下，默认不会提交到 Git：
+完整数据建议放在 `data/` 下：
 
 ```text
 data/
